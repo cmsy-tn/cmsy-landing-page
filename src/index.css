@@ -1,6 +1,10 @@
+/* TAILWIND CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 
 :root {
     /* COLORS */
@@ -9,6 +13,9 @@
     --secondary-color: #e5d9fe;
     --main-text: #30343f;
     --offset-text: #fbfaff;
+
+    /* SIZES */
+    --max-content-width: 1000px;
 }
 
 /* RESET */
