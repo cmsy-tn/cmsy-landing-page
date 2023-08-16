@@ -13,7 +13,7 @@ export default function HeroSection() {
                 alt="hero section backgrond"
                 style={{
                     zIndex: 2,
-                    width: '700px',
+                    width: '40%',
                     position: "absolute",
                     top: "50%",
                     left: "50%",
