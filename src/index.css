@@ -1,0 +1,27 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Grotesk:wght@400;700&display=swap');
+
+/* TAILWIND CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    /* COLORS */
+    --main-color: #1e2749;
+    --offset-color: #273469;
+    --secondary-color: #e5d9fe;
+    --main-text: #30343f;
+    --offset-text: #fbfaff;
+
+    /* SIZES */
+    --max-content-width: 1000px;
+}
+
+/* RESET */
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
