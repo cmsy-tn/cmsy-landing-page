@@ -4,6 +4,7 @@ import HeroSection from "./components/HeroSection"
 import MainSection from "./components/MainSection";
 import GuidesSection from "./components/guides/GuidesSection";
 import HypeSection from "./components/HypeSection";
+import FAQSection from "./components/faq/FAQSection";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MainSection />
       <GuidesSection />
       <HypeSection />
+      <FAQSection />
     </LandingPageLayout>
   )
 }
