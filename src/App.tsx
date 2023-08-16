@@ -3,6 +3,7 @@ import styled from "styled-components"
 import HeroSection from "./components/HeroSection"
 import MainSection from "./components/MainSection";
 import GuidesSection from "./components/guides/GuidesSection";
+import HypeSection from "./components/HypeSection";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <MainSection />
       <GuidesSection />
+      <HypeSection />
     </LandingPageLayout>
   )
 }
