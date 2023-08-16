@@ -1,10 +1,10 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Grotesk:wght@400;700&display=swap');
+
 /* TAILWIND CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Grotesk:wght@400;700&display=swap');
 
 :root {
     /* COLORS */
