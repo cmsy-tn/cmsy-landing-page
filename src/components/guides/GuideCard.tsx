@@ -10,6 +10,7 @@ export default function GuideCard({ DATA }: any) {
         )}>
             <div className="content flex flex-row items-center">
                 <div className="icon w-[100px] h-[100px] rounded-[50%] bg-yellow-400">
+                    {/* @TODO set the icon as a abackground image for this div */}
                     {/* <img src={DATA.icon} alt="guide_icon" /> */}
                 </div>
                 <div className="text ml-8">
