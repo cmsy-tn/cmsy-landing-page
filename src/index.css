@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {}
+:root {
+    /* COLORS */
+    --main-color: #1e2749;
+    --offset-color: #273469;
+    --secondary-color: #e5d9fe;
+    --main-text: #30343f;
+    --offset-text: #fbfaff;
+}
