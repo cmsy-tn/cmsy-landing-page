@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 /* FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Space+Grotesk:wght@400;700&display=swap');
 
 :root {
     /* COLORS */
