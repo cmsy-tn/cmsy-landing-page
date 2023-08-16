@@ -1,6 +1,6 @@
 export default function MainSection() {
     return (
-        <div className='mt-8 min-h-full w-full py-4 relative'>
+        <div className='mt-8 min-h-[500px] w-full py-4 relative'>
             <main className='max-w-[var(--max-content-width)] mx-auto z-20 relative'
             >
                 <h3 className="uppercase text-lg mb-8 text-[var(--offset-text)]">Unleash</h3>
