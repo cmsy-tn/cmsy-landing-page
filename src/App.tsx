@@ -5,6 +5,7 @@ import MainSection from "./components/MainSection";
 import GuidesSection from "./components/guides/GuidesSection";
 import HypeSection from "./components/HypeSection";
 import FAQSection from "./components/faq/FAQSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <GuidesSection />
       <HypeSection />
       <FAQSection />
+      <Footer />
     </LandingPageLayout>
   )
 }
