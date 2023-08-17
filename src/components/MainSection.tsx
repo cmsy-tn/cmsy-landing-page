@@ -1,4 +1,7 @@
 import MainSectionImage from '/src/assets/main_section_graphic.webp';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 export default function MainSection() {
     return (
         <div className='mt-8 min-h-[500px] w-full py-4 relative'>
@@ -10,7 +13,7 @@ export default function MainSection() {
                 </h1>
             </main>
 
-            <img
+            <LazyLoadImage
                 src={MainSectionImage}
                 alt="hero section backgrond"
                 style={{

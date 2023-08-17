@@ -1,5 +1,8 @@
 import concatClassNames from "../utils/ConcatClasses";
 import FootrImage from '/src/assets/footer_graphic.webp'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+
 export default function Footer() {
     return (
         <footer className={concatClassNames(
@@ -8,7 +11,7 @@ export default function Footer() {
             'text-center text-white'
         )}>
             <main>
-                <img src={FootrImage} width={200} alt="footer grphic" />
+                <LazyLoadImage src={FootrImage} width={200} alt="footer grphic" />
                 <p className="mt-4">&copy; 2023 <strong>CMSY</strong> LLC</p>
             </main>
         </footer>
