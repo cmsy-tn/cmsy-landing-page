@@ -1,3 +1,4 @@
+import MainSectionImage from '/src/assets/main_section_graphic.webp';
 export default function MainSection() {
     return (
         <div className='mt-8 min-h-[500px] w-full py-4 relative'>
@@ -10,7 +11,7 @@ export default function MainSection() {
             </main>
 
             <img
-                src="/src/assets/main_section_graphic.webp"
+                src={MainSectionImage}
                 alt="hero section backgrond"
                 style={{
                     display: 'block',

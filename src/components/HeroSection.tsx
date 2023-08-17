@@ -1,5 +1,5 @@
 import concatClassNames from "../utils/ConcatClasses";
-
+import HeroSectionImage from '/src/assets/hero_section_graphic.webp'
 export default function HeroSection() {
     return (
         <div className={concatClassNames(
@@ -9,7 +9,7 @@ export default function HeroSection() {
         )}>
 
             <img
-                src="/src/assets/hero_section_graphic.webp"
+                src={HeroSectionImage}
                 alt="hero section backgrond"
                 style={{
                     zIndex: 2,
