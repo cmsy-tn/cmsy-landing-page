@@ -9,7 +9,7 @@ export default function HeroSection() {
         )}>
 
             <img
-                src="src/assets/hero_section_graphic.webp"
+                src="/src/assets/hero_section_graphic.webp"
                 alt="hero section backgrond"
                 style={{
                     zIndex: 2,

@@ -10,7 +10,7 @@ export default function MainSection() {
             </main>
 
             <img
-                src="src/assets/main_section_graphic.webp"
+                src="/src/assets/main_section_graphic.webp"
                 alt="hero section backgrond"
                 style={{
                     display: 'block',
