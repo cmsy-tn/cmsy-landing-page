@@ -10,10 +10,18 @@ export default function MainSection() {
         <div className='mt-8 min-h-[500px] w-full py-4 relative'>
             <main className='max-w-[var(--max-content-width)] mx-auto z-20 relative'
             >
-                <h3 className="uppercase text-lg mb-8 text-[var(--offset-text)]">Unleash</h3>
-                <h1 className='text-white text-6xl text-left font-["Limelight"] capitalize'>
-                    Create extraordinary portfolios with CMSY in minutes.
+                <h3 className="uppercase text-lg mb-8 text-[var(--offset-text)]">Open source</h3>
+                <h1 className='text-white text-6xl text-left font-["Limelight"] capitalize mb-8'>
+                    watch CMSy being built live
                 </h1>
+                <iframe
+                    width="100%"
+                    height="470"
+                    src="https://www.youtube-nocookie.com/embed/videoseries?list=PL0CvNBjIYw8V14E7sCcrkKjSyhl12JQsK"
+                    title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                ></iframe>
             </main>
 
             <LazyLoadImage
