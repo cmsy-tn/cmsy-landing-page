@@ -12,7 +12,7 @@ export default function MainSection() {
             >
                 <h3 className="uppercase text-lg mb-8 text-[var(--offset-text)]">Open source</h3>
                 <h1 className='text-white text-6xl text-left font-["Limelight"] capitalize mb-8'>
-                    watch CMSy being built live
+                    watch CMSY being built live
                 </h1>
                 <iframe
                     width="100%"
