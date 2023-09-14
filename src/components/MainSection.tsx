@@ -1,11 +1,8 @@
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import img from '/src/assets/main_section_graphic.webp';
+import lazyImg from '/src/assets/main_section_graphic_smaller.webp';
 
 export default function MainSection() {
-    const image = {
-        src: '/assets/main_section_graphic.webp',
-        lowResSrc: '/assets/main_section_graphic_smaller.webp'
-    }
     return (
         <div className='mt-8 min-h-[500px] w-full py-4 relative'>
             <main className='max-w-[var(--max-content-width)] mx-auto z-20 relative'
@@ -25,8 +22,8 @@ export default function MainSection() {
             </main>
 
             <LazyLoadImage
-                src={image.src}
-                placeholderSrc={image.lowResSrc}
+                src={img}
+                placeholderSrc={lazyImg}
                 alt="hero section backgrond"
                 style={{
                     display: 'block',

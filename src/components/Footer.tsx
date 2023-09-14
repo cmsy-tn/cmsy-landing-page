@@ -1,12 +1,9 @@
 import concatClassNames from "../utils/ConcatClasses";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import img from '/src/assets/footer_graphic.webp';
+import lazyImg from '/src/assets/footer_graphic_smaller.webp';
 
 export default function Footer() {
-    const image = {
-        src: '/src/assets/footer_graphic.webp',
-        lowResSrc: '/src/assets/footer_graphic_smaller.webp'
-    }
     return (
         <footer className={concatClassNames(
             'w-full min-h-[300px] mt-16',
@@ -14,7 +11,7 @@ export default function Footer() {
             'text-center text-white'
         )}>
             <main>
-                <LazyLoadImage src={image.src} placeholderSrc={image.lowResSrc} width={200} alt="footer grphic" />
+                <LazyLoadImage src={img} placeholderSrc={lazyImg} width={200} alt="footer grphic" />
                 <p className="mt-4">&copy; 2023 <strong>CMSY</strong> LLC</p>
             </main>
         </footer>

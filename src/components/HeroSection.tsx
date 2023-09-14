@@ -1,12 +1,9 @@
 import concatClassNames from "../utils/ConcatClasses";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
+import img from '/src/assets/hero_section_graphic.webp';
+import lazyImg from '/src/assets/hero_section_graphic_smaller.webp';
 
 export default function HeroSection() {
-    const image = {
-        src: '/src/assets/hero_section_graphic.webp',
-        lowResSrc: '/src/assets/hero_section_graphic_smaller.webp'
-    }
     return (
         <div className={concatClassNames(
             'h-[100vh] w-full',
@@ -15,8 +12,8 @@ export default function HeroSection() {
         )}>
 
             <LazyLoadImage
-                src={image.src}
-                placeholderSrc={image.lowResSrc}
+                src={img}
+                placeholderSrc={lazyImg}
                 alt="hero section backgrond"
                 style={{
                     zIndex: 2,
