@@ -3,8 +3,8 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function MainSection() {
     const image = {
-        src: '/src/assets/main_section_graphic.webp',
-        lowResSrc: '/src/assets/main_section_graphic_smaller.webp'
+        src: '/assets/main_section_graphic.webp',
+        lowResSrc: '/assets/main_section_graphic_smaller.webp'
     }
     return (
         <div className='mt-8 min-h-[500px] w-full py-4 relative'>

@@ -1,7 +1,6 @@
 {
   "name": "cmsy-landing-page",
-  "homepage": "https://aymkh.github.io/cmsy-landing-page",
-  "private": true,
+  "homepage": "cmsy.tn",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
